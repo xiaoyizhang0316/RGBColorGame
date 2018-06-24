@@ -3,6 +3,8 @@
 	height: 15em;
 	margin: 1%;
 	float: left;
+	transition:1s;
+	border-radius: 15%;
 }
 
 a{
@@ -26,6 +28,7 @@ h2{
 #head{
 	margin:0;
 	padding:0;
+	color:white;
 }
 
 .head{
@@ -37,6 +40,10 @@ h2{
 #newColor{
 	text-decoration: none;
 	font-size:30px;
+}
+
+#newColor:hover{
+	cursor: pointer;
 }
 #container{
 	padding-top:5%;
